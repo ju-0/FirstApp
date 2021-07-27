@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image1_1"
+        android:src="@drawable/pori_1"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+    <ImageView
+        android:id="@+id/image1_2"
+        android:src="@drawable/pori_2"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+    <ImageView
+        android:id="@+id/image1_3"
+        android:src="@drawable/pori_3"
+        android:layout_width="130dp"
+        android:layout_height="130dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image2_1"
+            android:src="@drawable/pori_4"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+        <ImageView
+            android:id="@+id/image2_2"
+            android:src="@drawable/pori_5"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+        <ImageView
+            android:id="@+id/image2_3"
+            android:src="@drawable/pori_6"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image3_1"
+            android:src="@drawable/pori_10"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+        <ImageView
+            android:id="@+id/image3_2"
+            android:src="@drawable/pori_11"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+        <ImageView
+            android:id="@+id/image3_3"
+            android:src="@drawable/pori_12"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
